@@ -1,0 +1,5 @@
+This is an example of a sentence that spans
+multiple lines in
+the text file. We need to handle it.
+
+

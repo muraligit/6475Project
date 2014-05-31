@@ -1,0 +1,4 @@
+Please delete this file. 
+
+It was created because git does not allow committing empty directory structure. 
+
