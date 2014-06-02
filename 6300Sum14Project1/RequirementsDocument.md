@@ -38,13 +38,13 @@ requirements.
 1. Be executable from the command line
 2. Allow the user to specify a file path to their text file as a command line argument (this is a required argument)
 3. Allow the user to specify delimiters with the -d short flag, followed by an integer (this is an optional argument, defaulting to .?!)
-	1. Per the instructor notes, the comma should not be used as a default delimiter.	
+   1. Per the instructor notes, the comma should not be used as a default delimiter.	
 4. Allow the user to specify the lower word length limit with the -l short flag, followed by an integer (this is an optional argument, defaulting to 3)
 5. Output the Average Sentence Length (defined as the average number of valid words across all sentences) rounded down to the nearest integer.
-	1. Helpful messages should be returned to the user in the case of an error.
+   1. Helpful messages should be returned to the user in the case of an error.
 6. Contain the following classes:
-	1. A class called "Main" that implements the command line interface for the program.
-	2. A class called "AverageSentenceLength" that implements the main program functionality.
+   1. A class called "Main" that implements the command line interface for the program.
+   2. A class called "AverageSentenceLength" that implements the main program functionality.
 7. Pass All Unit Tests
 	
 
