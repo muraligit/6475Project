@@ -10,52 +10,52 @@ The customer, a teacher would like a software tool that will help her students a
 
 # 2 Process Description
 
-## Activity 1. Customer Request Documentation: Define software requirements in terms of the problem
+##### Activity 1. Customer Request Documentation: Define software requirements in terms of the problem
 - Input: Text document summarizing customer interview
 - Output: Specification document summarizing the project scope
 - Exit: Scope Approval
 
-## Activity 2. Objectives Definition: Solution direction with functional and programming paths
+##### Activity 2. Objectives Definition: Solution direction with functional and programming paths
 - Input: Specification document from Activity 1.
 - Output: Product Objectives document
 - Exit: Objectives Approval
 
-## Activity 3. Prototype: A quick model to evaluate feasibility of concept and objectives
+##### Activity 3. Prototype: A quick model to evaluate feasibility of concept and objectives
 - Input: Specification document from Activity 1 and Objectives document from Activity 2.
 - Output: Functional prototype. High level design for Development.
 - Exit: Design approval.
 
-## Activity 4. Specifications: Detailed description of the product.
+##### Activity 4. Specifications: Detailed description of the product.
 - Input: Latest Specification and Objectives document from prior activities.
 - Output: Specifications document
 - Exit: Specifications are approved and placed in version control.
 
-## Activity 5. Design: Detailed description of the program components and their interaction.
+##### Activity 5. Design: Detailed description of the program components and their interaction.
 - Input: Latest Specification and Objectives document from prior activities.
 - Output: Specifications document
 - Exit: Design is approved and specifications finalized.
 
-## Activity 6. Test Plan Development: Process for certifying that the product meets specifications.
+##### Activity 6. Test Plan Development: Process for certifying that the product meets specifications.
 - Input: Latest Specifications.
 - Output: Test plan document.
 - Exit: Approved test plan.
 
-## Activity 7. Coding: Writing and compiling programs.
+##### Activity 7. Coding: Writing and compiling programs.
 - Input: Specifications and Design document.
 - Output: Product code.
 - Exit: All code is compiled without errors.
 
-## Activity 8. Testing: testing for logic and function.
+##### Activity 8. Testing: testing for logic and function.
 - Input: Test plan document.
 - Output: Test results.
 - Exit: All test have passed. Or repeat activity 7.
 
-## Activity 9. Documentation: User manual for the product.
+##### Activity 9. Documentation: User manual for the product.
 - Input: Outputs from prior activities.
 - Output: Manuscript of the manual.
 - Exit: Publication of First version of the Manual.
 
-## Activity 10. Acceptance Testing and Delivery.
+##### Activity 10. Acceptance Testing and Delivery.
 - Input: The requirements, product, manual, and training.
 - Output: Results of testing.
 - Exit: Customer acceptance or repeat appropriate prior activity.
