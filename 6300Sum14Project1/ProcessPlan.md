@@ -71,18 +71,25 @@ The customer, a teacher, would like a software tool that will help her students 
 ##### List of Roles
 
 - **Project Manager**
+
    The Project Manager leads and organizes the team so that everyone can work effectively and concentrate on their individual tasks.
 - ** Development Lead**
+
    The Development Lead is an experienced problem solver, particularly with the language needed to complete the project (Java). He/she will provide architectural direction on the best way to build the software so that it meets the requirements and help prevent team mates from running into coding roadblocks.
 - **Documentation Lead**
+
    The Documentation Lead is an effective writer and communicator that can think like a user and create documentation that is easy to understand and makes our software easier to use.
 - **QA Manager**
+
    The QA Manager leads the testing efforts and helps ensure that the software meets requirements and will work properly under normal use.
 - **Developer**
+
    A Developer assists the Development Lead with the coding process.
 - **Documentation**
+
    The Documentation role assists the Documentation Lead with the documentation process (basic documentation, needed code comments, etc.).
 - **Tester**
+
    A Test assists the QA Manager with the testing efforts and can report issues or contribute additional tests.
  
 
