@@ -10,18 +10,18 @@ The external system the software will interact with primarily is the File System
 
 **Libraries**
 
-We will be using the standard Java 1.7 Libraries along with the JUnit Framework for testing.
+We will be using the standard Java 1.7 Libraries along with the JUnit 4 Framework for testing.
 
 ##### 1.2 User Interfaces 
 
 The software will interact with users via the command line. Users will need to be able to open up a command prompt on their computers and be able to type in the needed parameters (the path to their essay text file, along with optional parameters) on their keyboards.
 
-The software will output the overall average number of words in their sentences. 
+The software will output the overall average number of words in their sentences (or a helpful error message if an issue occurs). 
 
 ##### 1.3 User Characteristics 
 
 - Users will be University Students.
-- Users will be using a variety of computers and operating systems (Windows , Linux/Unix, Mac).
+- Users will be using a variety of computers and operating systems (Windows, Linux/Unix, Mac).
 - Users will have a varied amount of technical expertise / computer experience (ranging from No Experience - Proficient)
 
 ## 2 System Requirements 
@@ -42,10 +42,11 @@ requirements.
 4. Allow the user to specify the lower word length limit with the -l short flag, followed by an integer (this is an optional argument, defaulting to 3)
 5. Output the Average Sentence Length (defined as the average number of valid words across all sentences) rounded down to the nearest integer.
 	1. Helpful messages should be returned to the user in the case of an error.
-6. Contain the following files:
+6. Contain the following classes:
 	1. A class called "Main" that implements the command line interface for the program.
-	2. A class called "AvergaeSentenceLength" that implements the main program functionality.
-7. Pass All Unit Tests 
+	2. A class called "AverageSentenceLength" that implements the main program functionality.
+7. Pass All Unit Tests
+	
 
 
 ##### 2.2 Non-Functional Requirements 
