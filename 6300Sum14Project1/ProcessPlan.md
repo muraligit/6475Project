@@ -62,11 +62,12 @@ The customer, a teacher would like a software tool that will help her students a
 
 # 3 Team
 
-Lead Support Approval Activities
-Chandra Testing Documentation Specifications 6,8
-Murali Documentation Testing 1,2,4,9
-Omar Program Management Code Code/Product 3,5,7,10
-Tony Code Testing Documentation 3,7,9
+Lead | Support Approval | Activities
+---- | ---------------- | ----------
+Chandra | Testing Documentation Specifications | 6,8
+Murali | Documentation Testing | 1,2,4,9
+Omar | Program Management Code Code/Product | 3,5,7,10
+Tony | Code Testing Documentation | 3,7,9
 
 # 4 Estimates
 
