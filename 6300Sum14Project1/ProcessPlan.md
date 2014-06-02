@@ -73,7 +73,7 @@ The customer, a teacher, would like a software tool that will help her students 
 - **Project Manager**
 
    The Project Manager leads and organizes the team so that everyone can work effectively and concentrate on their individual tasks.
-- ** Development Lead**
+- **Development Lead**
 
    The Development Lead is an experienced problem solver, particularly with the language needed to complete the project (Java). He/she will provide architectural direction on the best way to build the software so that it meets the requirements and help prevent team mates from running into coding roadblocks.
 - **Documentation Lead**
@@ -91,7 +91,8 @@ The customer, a teacher, would like a software tool that will help her students 
 - **Tester**
 
    A Test assists the QA Manager with the testing efforts and can report issues or contribute additional tests.
- 
+
+##### Role Assignments   
 
 Team Member | Primary Role | Additional Roles
 ----------- | ------------ | -----
