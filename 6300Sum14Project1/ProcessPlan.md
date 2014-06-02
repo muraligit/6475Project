@@ -1,14 +1,14 @@
-Process Plan - Team 22
+# Process Plan - Team 22
 
-# 1 Introduction
+## 1 Introduction
 
-The customer, a teacher would like a software tool that will help her students analyze their essays for sentence length. The students will use the information to improve wordy sentence structure.
+The customer, a teacher, would like a software tool that will help her students analyze their essays for sentence length. The students will use the information to improve wordy sentence structure.
 - The input to the software will be a raw text file.
-- The software should run at command line using Java with file path, delimiters, and word length limit specified in the command line.
+- The software should run at the command line using Java with the file path (required), a list of delimiters (optional), or word length limit (also optional) specified.
 - The output should be average number of words per sentence.
-- In the case of errors in processing the file, helpful messages should be provide to the user
+- In the case of errors when processing the file, helpful messages will be provided to the user.
 
-# 2 Process Description
+## 2 Process Description
 
 ##### Activity 1. Customer Request Documentation: Define software requirements in terms of the problem
 - Input: Text document summarizing customer interview
@@ -60,7 +60,7 @@ The customer, a teacher would like a software tool that will help her students a
 - Output: Results of testing.
 - Exit: Customer acceptance or repeat appropriate prior activity.
 
-# 3 Team
+## 3 Team
 
 Lead | Support Approval | Activities
 ---- | ---------------- | ----------
@@ -69,7 +69,7 @@ Murali | Documentation Testing | 1,2,4,9
 Omar | Program Management Code Code/Product | 3,5,7,10
 Tony | Code Testing Documentation | 3,7,9
 
-# 4 Estimates
+## 4 Estimates
 
 Team Member | Hours | Activities
 ----------- | ----- | ----------
@@ -78,6 +78,6 @@ Murali | 20 | 1,2,4,9
 Omar | 30 | 3,5,7,10
 Tony | 20 | 3,7,9
 
-## Lines of code: 
+### Lines of code: 
 
 Total number of lines of source code you expect to have in your final product
