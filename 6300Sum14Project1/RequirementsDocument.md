@@ -35,6 +35,7 @@ requirements.
 ##### 2.1 Functional Requirements 
 
 **The software must:**
+
 1. Be executable from the command line
 2. Allow the user to specify a file path to their text file as a command line argument (this is a required argument)
 3. Allow the user to specify delimiters with the -d short flag, followed by an integer (this is an optional argument, defaulting to .?!)
@@ -47,8 +48,6 @@ requirements.
    2. A class called "AverageSentenceLength" that implements the main program functionality.
 7. Pass All Unit Tests
 	
-
-
 ##### 2.2 Non-Functional Requirements 
  
  **The software must:**
