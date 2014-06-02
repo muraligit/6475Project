@@ -6,7 +6,7 @@
 
 **External Systems**
 
-The software will have interact primarily with the File System (to read user provided files).
+The external system the software will interact with primarily is the File System (to read user provided files).
 
 **Libraries**
 
