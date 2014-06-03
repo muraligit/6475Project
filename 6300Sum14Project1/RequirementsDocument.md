@@ -10,7 +10,7 @@ The external system the software will interact with primarily is the File System
 
 **Libraries**
 
-We will be using the standard Java 1.7 Libraries along with the JUnit 4 Framework for testing.
+The user will need to have the standard Java 1.7 Libraries available to run the application.
 
 ##### 1.2 User Interfaces 
 
@@ -56,6 +56,7 @@ requirements.
 ##### 2.2 Non-Functional Requirements 
  
  **The software must:**
- 1. Be Documented (manual.txt)
+ 
+ 1. Be Documented (manual.txt) (we will assume that users already have Java installed and are able to run a program from the command line)
  2. Be Able to Process a reasonably sized essay (1 MB or less) within 1 second.
  3. Handle errors gracefully
