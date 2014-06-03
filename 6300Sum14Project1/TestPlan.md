@@ -12,45 +12,48 @@ The SenLen program will evaluate text documents to determine the average sentenc
 
 ### 2.1 - Test Plan Quality
 
--- In the first prototype, we will be testing proof of concept ideas such as reading from a file in a literally declared location, parsing words of known origin, and sentences of known length.  
+- In the first prototype, we will be testing proof of concept ideas such as reading from a file in a literally declared location, parsing words of known origin, and sentences of known length.  
 
--- In later iterations, we will be testing variable file names, using sample data from an outside source in the various disciplines, and using variable delimiters, ignoring words of variably determined length
+- In later iterations, we will be testing variable file names, using sample data from an outside source in the various disciplines, and using variable delimiters, ignoring words of variably determined length
 
--- In the final version, we will test from the command line, with user-determined file names, delimiters, and word length, with a testing of the parameter listing, orders, and handling of special cases.
+- In the final version, we will test from the command line, with user-determined file names, delimiters, and word length, with a testing of the parameter listing, orders, and handling of special cases.
 
 ### 2.2 - Adequacy Criterion
 
--- In the first prototype and later iterations, we will be using known input data for which we know the expected value.  
+- In the first prototype and later iterations, we will be using known input data for which we know the expected value.  
 
--- For later tests the appropriate output will be determined for the variable input.
+- For later tests the appropriate output will be determined for the variable input.
 
 ### 2.3 - Bug Tracking
 
--- During development, bugs and enhancement requests will be tracked by the GitHub communication protocols as well as team communications through chat and e-mail.
+- During development, bugs and enhancement requests will be tracked by the GitHub communication protocols as well as team communications through chat and e-mail.
 
--- After development, it is assumed bugs found by the users would be brought to the attention of the professor or instructor whose class they are in, which in turn would relay those bugs as well as preferred enhancement requests to the development team.  Recurring user errors should be accommodated for as reasonably as possible, and client errors should be eliminated.
+- After development, it is assumed bugs found by the users would be brought to the attention of the professor or instructor whose class they are in, which in turn would relay those bugs as well as preferred enhancement requests to the development team.  Recurring user errors should be accommodated for as reasonably as possible, and client errors should be eliminated.
 
 # 3 - Test Strategy
 
--- The prototype phase will involve ensuring that the program can read files correctly from a file, and correctly parse words and sentences for counting, given explicitly defined delimiters.  Simple intermediate output statements should so if file input is properly handled (including spacing, delimiters, new lines, and other whitespace), and counts accurately maintained.
+- The prototype phase will involve ensuring that the program can read files correctly from a file, and correctly parse words and sentences for counting, given explicitly defined delimiters.  Simple intermediate output statements should so if file input is properly handled (including spacing, delimiters, new lines, and other whitespace), and counts accurately maintained.
 
--- The intermediate step should test variable file names, paths, delimiters, and word size values to ignore.  Given that the input files and parameters are known, it should be easy to calculate the appropriate response and determine its validity.
+- The intermediate step should test variable file names, paths, delimiters, and word size values to ignore.  Given that the input files and parameters are known, it should be easy to calculate the appropriate response and determine its validity.
 
--- The later steps of testing should ensure that the command line interface works appropriately, and should experiment with text from unknown and random sources.  The output should be determined independently and checked against our program for further refinements.  User error should be handled gracefully and client errors should be as close to zero as possible.
+- The later steps of testing should ensure that the command line interface works appropriately, and should experiment with text from unknown and random sources.  The output should be determined independently and checked against our program for further refinements.  User error should be handled gracefully and client errors should be as close to zero as possible.
 
 ## 3.1 - Testing Process
 
--- 
+- 
 
 ## 3.2 - Technology
 
--- Simple debugging statements should suffice for the prototype level of testing.  Subsequent levels of testing will involve using JUnit 4 to test typical cases.  As we get close to release, command line interactions should be generated to test typical and atypical user inputs.
+- Simple debugging statements should suffice for the prototype level of testing.  Subsequent levels of testing will involve using JUnit 4 to test typical cases.  As we get close to release, command line interactions should be generated to test typical and atypical user inputs.
 
 # 4 - Test Cases
 
 - Test cases for the Prototype phase:
 
 - Test cases for the JUnit phase:
+
+
+**yes, I know I need to fix this.**
 
 | File Name | Delimiters | Min. Word Count | Text | Expected Result | Actual Result | P/F |
 | essay.txt | “.?!” | 5 | Same text as below | 4  |  |  |
